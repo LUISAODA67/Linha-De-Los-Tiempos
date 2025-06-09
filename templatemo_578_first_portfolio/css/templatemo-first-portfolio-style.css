@@ -10,6 +10,26 @@ https://templatemo.com/tm-578-first-portfolio
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
+.fa-volume-up, .fa-volume-mute{
+  color: var(--dark-color);
+  font-size: 20px;
+}
+
+.botao{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 8px 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.botao:hover {
+  opacity: 0.8;
+}
+
 :root {
   --white-color:                  #ffffff;
   --primary-color:                #535da1;

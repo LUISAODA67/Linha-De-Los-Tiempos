@@ -9,6 +9,10 @@
     <meta name="author" content="TemplateMo">
 
     <title>PORTFOLIO LUÍS OTÁVIO</title>
+    <!--Musicas e Audios-->
+    <audio id="background-music-1" style="display: none;">
+        <source src="audio/Trilha Sonora Jaspion ｜ Neppū Yarou Juspion.mp3" type="audio/mp3">    
+    </audio>
 
     <!-- CSS FILES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,8 +27,10 @@
 
     <link href="css/magnific-popup.css" rel="stylesheet">
 
+
     <link href="css/templatemo-first-portfolio-style.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!--
 
 TemplateMo 578 First Portfolio
@@ -84,9 +90,10 @@ https://templatemo.com/tm-578-first-portfolio
 
                 <div class="d-lg-flex align-items-center d-none ms-auto">
                     <i class="navbar-icon bi-telephone-plus me-3"></i>
-                    <a class="" href="#section_5">
-                        Clique aqui e ganhe 1000 reais
-                    </a>
+                    <button class="botao navbar-icon" id="sound-toggle">
+                        <i class="fa-solid fa-volume-up"></i>
+                        <i class="fa-solid fa-volume-mute" style="display: none;"></i>
+                    </button>
                 </div>
             </div>
 
@@ -687,6 +694,7 @@ https://templatemo.com/tm-578-first-portfolio
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/magnific-popup-options.js"></script>
     <script src="js/custom.js"></script>
+    <script src="js/musicas.js"></script>
 
 </body>
 
